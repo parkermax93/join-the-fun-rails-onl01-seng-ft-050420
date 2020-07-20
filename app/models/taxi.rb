@@ -1,4 +1,4 @@
 class Taxi < ActiveRecord::Base
   has_many :ride
-  has_many :passenger, through: :ride
+  has_many :passengers, through: :ride
 end
